@@ -6,15 +6,15 @@
 
 .container{
 	
-	height: 100%
-	margin:0px ;
+	height: 100%;
+	margin: 0px ;
 	padding: 0px ;
 }
 
 .navBar{
-	background-color: #f2f2f2;
+	background-color: white;
 	border:none;
-	height:70px;
+	height:5px;
 	position:relative;
     text-align: center;
 	display:flex;
@@ -102,7 +102,7 @@ background: #e2f0fc
 	margin-right: 0px;
 	left:-240px;
 	top:40px;
-	background-image:url("../task2/1_files/CoverStory_robots.jpg");
+	background-image:url("1_files/CoverStory_robots.jpg");
     background-size:cover;
     position: absolute;
     z-index: 2;
@@ -133,7 +133,7 @@ background: #e2f0fc
 	left:400px;
 	top:540px;
 	z-index: 3;
-	background-image:url("../task2/1_files/robot001.jpg");
+	background-image:url("1_files/robot001.jpg");
     background-size:cover;
 }
 .teckNews{
@@ -171,8 +171,12 @@ div> button{
 	height:45px;
 	background:#b9dfdf;
 	border:none;
-	font-size:17px;
-	font-weight: 650
+	font-size:14px;
+	font-weight: 700;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
   
 }
 div> button:hover{
@@ -206,7 +210,7 @@ div> button:hover{
 .triangle_img{
 	width:290px;
 	height:290px;
-	background-image:url("../task2/1_files/1q.png" );
+	background-image:url("1_files/1q.png" );
     background-size:cover;
 	position:absolute;
 	z-index: 3;
@@ -228,7 +232,7 @@ div> button:hover{
 	z-index: 1;
 	top:550px;
 	left:80px;
-	background-image:url("../task2/1_files/z.jpg" );
+	background-image:url("1_files/z.jpg" );
 	background-size:cover;
 	background-position:center;
 
@@ -254,7 +258,7 @@ div> button:hover{
 	z-index: 2;
 	top:680px;
 	left:250px;
-	background-image:url("../task2/1_files/man.jpg" );
+	background-image:url("1_files/man.jpg" );
 	background-size:cover;
 
 }
@@ -272,7 +276,7 @@ div> button:hover{
 .z1_triangle{
    width:170px;
    height:170px;
-   background-image:url("../task2/1_files/w.png" );
+   background-image:url("1_files/w.png" );
    background-size:cover;
    position:absolute;
    z-index: 3;
@@ -394,7 +398,7 @@ div> button:hover{
 .blueRobot{
 	width:500px;
 	height:600px;
-	background-image:url("../task2/1_files/BR.jpg");
+	background-image:url("1_files/BR.jpg");
     background-size:cover;
     position: absolute;
 	top:5350px;
@@ -409,8 +413,6 @@ div> button:hover{
 	top:5450px;
 	left:580px;
     z-index: 1;
-
-
 }
 .AI_header{
 	width:100%;
@@ -443,7 +445,7 @@ div> button:hover{
 .tng{
 	width:250px;
 	height:250px;
-	background-image:url("../task2/1_files/1q(1).png");
+	background-image:url("1_files/1q(1).png");
 	background-size:cover;
 	margin-top:20px;
 
@@ -489,7 +491,7 @@ div> button:hover{
 	z-index: 3;
     top:360px;
     left:-310px;
-    background-image:url("../task2/1_files/last.jpg");
+    background-image:url("1_files/last.jpg");
     background-size:cover;
 
 }
@@ -509,7 +511,7 @@ div> button:hover{
 	color:white;
 	text-align:center;
 	font-size:18px;
-	padding:50px auto;
+	padding:50px ;
 
 }
 .greyBackground{
@@ -523,5 +525,220 @@ div> button:hover{
     font-size:15px;
     color:white;
     padding-top:60px;
+
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px){
+	.z1_text{
+		width:300px;
+		height:380px;
+		position:absolute;
+		z-index: 1;
+		top:370px;
+		left:420px;
+		background:white;
+		padding:40px;
+		text-align: left;
+		color:black;
+		font-size:18px;
+		font-weight:100;
+	}
+	.z2_img{
+		width:200px;
+		height:540px;
+		position:absolute;
+		z-index: 2;
+		top:360px;
+		left:200px;
+		background-image:url("1_files/man.jpg" );
+		background-size:cover;
+	
+	}
+	.z1_img{
+		width:200px;
+		height:500px;
+		position:absolute;
+		z-index: 1;
+		top:250px;
+		left:50px;
+		background-image:url("1_files/z.jpg" );
+		background-size:cover;
+		background-position:center;
+	
+	}
+	.z3_text{
+		width:300px;
+		height:80px;
+		position:absolute;
+		z-index: 3;
+		top:280px;
+		left:350px;
+		font-size:48px;
+		color:rgb(174, 161, 106);
+		font-weight:300;
+	}
+	.z1_triangle{
+		width:150px;
+		height:150px;
+		background-image:url("1_files/w.png" );
+		background-size:cover;
+		position:absolute;
+		z-index: 3;
+		top:750px;
+		left:50px;
+	 
+	 }
+	 .Layout{
+		display:flex;
+		justify-content: space-around;
+		position:absolute;
+		z-index: 3;
+		top:1000px;
+		left:60px;	
+		width:90%;
+		margin:auto;
+		height:300px;
+	}
+	.darkBackground{
+		height: 1450px;
+	}
+	.blueBackground2{
+		width:750px;
+		height:100px;
+		background: #b9dfdf ;
+		position: absolute;
+		top:3150px;
+		left:350px;
+		z-index: 1;
+	  }
+
+	  .img_text{
+		width:400px;
+		height:150px;
+		padding:70px 0  0 70px;
+		font-size:18px;
+		font-weight:500;
+	
+	}
+	.whiteBackground{
+		width:100%;
+		height:10px;
+		background:white;
+		position: absolute;
+		top:3300px;
+		z-index: 1;
+		display:flex;
+	
+		}
+	.blackBackground{
+			width:100%;
+			height:500px;
+			background:black;
+			position: absolute;
+			top:4200px;
+			z-index: 1;
+	}
+	.fullBlueBackground{
+		width:100%;
+		height:300px;
+		position: absolute;
+		top:4600px;
+		z-index: 1;
+		background:#b9dfdf;
+	
+	}
+	.blueRobot{
+		width:500px;
+		height:600px;
+		background-image:url("1_files/BR.jpg");
+		background-size:cover;
+		position: absolute;
+		top:4575px;
+		left:50px;
+		z-index: 2;
+	}
+	.AI{
+		width:650px;
+		height:650px;
+		background:white;
+		position: absolute;
+		top:5200px;
+		left:130px;
+		z-index: 1;
+	}
+	.whiteBackground2{
+		width:100%;
+		height:900px;
+		position: absolute;
+		top:5600px;
+		z-index: 1;
+		background:white;
+		display:flex;
+	}
+	.darkBlueBackground{
+		width:100%;
+		height:350px;
+		position: absolute;
+		top:6400px;
+		background:#23354d;
+	   display:flex;
+	
+		}
+		.greyBackground{
+			width:100%;
+			height:100px;
+			position: absolute;
+			top:6700px;
+			background:#333;
+			text-align:center;
+			text-decoration:none;
+			font-size:15px;
+			color:white;
+			padding-top:60px;
+		
+		}
+		.text_header{
+			text-align: center;
+			color:white;
+			font-size:50px;
+			font-weight:700;
+			margin:100px -40px auto auto;
+			
+		}
+		.text_text{
+			text-align: left;
+			color:white;
+			font-size:24px;
+			font-weight:200;
+			margin-left:420px;
+			margin-top:20px;
+			top:0px;
+		}
+		.blue_1{
+			width: 330px;
+			height:50px;
+			text-align: left;
+			color:black;
+			font-size:28px;
+			font-weight:200;
+			position:absolute;
+			top:1000px;
+			left:290px;
+			
+		
+		}
+		.blue_2{
+			width: 330px;
+			height:300px;
+			text-align: left;
+			color:black;
+			font-size:18px;
+			font-weight:100;
+			position:absolute;
+			top:1070px;
+			left:290px;
+		}
+}
+
 
 }
