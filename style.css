@@ -10,7 +10,35 @@
 	margin: 0px ;
 	padding: 0px ;
 }
+.nav_sidebar{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:250px;
+	padding:0 ;
+	height:100vh;
+	visibility: hidden;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:15;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	line-height: 50px;
+	
+}
+.icon i{
+	cursor: pointer;
+	
+}
+.CLOSE i{
+	size:100px;
+	float:right;
+	padding:20px;
 
+
+}
 .navBar{
 	background-color: white;
 	border:none;
@@ -742,3 +770,4 @@ div> button:hover{
 
 
 }
+
