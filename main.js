@@ -1,19 +1,16 @@
-let ToggleNavStatus = false;
+const menu= document.querySelector('.icon');
 
-let ToggleNav= function{
-      let getSideBar=document.querySelector('.nav_sidebar')  
-      let getSideBarLinks=document.querySelectorAll('.nav_sidebar li')
-
-if(ToggleNavStatus === false){
-    getSideBar.style.visibility='visible';
-    getSideBar.style.background='black';
-    getSideBar.style.opacity='0.7'
+menu.addEventListener('click', unhide)
 
 
-    for(i=0;i<getSideBarLinks.length;i++){
-        getSideBarLinks[i].style.opacity='1'
-    }
-    ToggleNavStatus = true;
+ function unhide(){
+   document.querySelector('.nav_sidebar').style.visibility= ' visible';
+   
 }
 
+const close= document.querySelector('.CLOSE');
+close.addEventListener('click', CLS );
+
+function CLS(){
+    document.querySelector('.nav_sidebar').style.visibility= ' hidden';
 }
